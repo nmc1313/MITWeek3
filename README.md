@@ -1,12 +1,21 @@
-# MITWeek3
-<h1> MIT x Pro Course Week 3 Files </h1> 
+# Practice Javascript Coding
 
-Descriptions of uploaded files: 
-* Multiplication: Create a multiplication table that prints to console
-* Big Bang: Creates balls in the browser. Use factory(# of balls to produce) and update () in developer tools to create and move the balls
-* Random Walk: Moves ball randomly. Use update () in developer tools to begin movement
-* Projectile: Ball with gravity
-* Random Walk 2: Make new random color balls on click
-* Confetti & Streamers: Experimenting with how to extend this code - confetti movement proved challenging
+Notice how we load other files into our code. eg mystyles.css and ball.js. Sometimes we do this to "hide" complexity. Here we are hiding the complexity of dealing with the browser memory by putting that in ball.js.
 
-Other files support the ones above!
+## Projectile.html
+
+This allows you to create balls that move under gravity. They will bounce off the walls.
+Understand how to create a ball at a specific location. Also to give it a velocity that varies under gravity.
+Understand how arrays are used to store lots of balls.
+
+## Randomwalk.html
+
+This explores how molecule move randomly.
+We investigate a "sneeze"
+Can you add gravity so the virus particles drop to the ground?
+
+## Randomwalk2.html
+
+Here we add tracking of the particles. How do we do this? It seems "wasteful" to create lots of copies of the particles. However, in the browser its the only way.
+
+## string.html
